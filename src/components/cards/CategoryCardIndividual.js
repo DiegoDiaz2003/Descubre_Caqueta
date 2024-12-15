@@ -6,9 +6,9 @@ export default function CategoryCardIndividual({ title, text, image,background,u
     return (
         <Card backgroundColor={background}>
             <Texts>
-                <Link to={url}>{title}</Link>
+                <h2>{title}</h2>
                 <p>{text}</p>
-                <Button>¡Pille!</Button>
+                <Button to={url}>¡Pille!</Button>
             </Texts>
             <ImageContainer>
                 <Image src={image} alt="" />
@@ -31,10 +31,9 @@ const Texts = styled.div`
     flex-direction: column;
     flex: 1;
 
-    a {
+    h2 {
         font-size: 2rem;
         color: #000;
-        text-decoration-line: none;
         font-weight: 600;
     }
 
@@ -43,7 +42,7 @@ const Texts = styled.div`
     }
 `;
 
-const Button = styled.button`
+const Button = styled(Link)`
     align-self: center;
     border-radius: 1rem;
     border:none;
@@ -51,6 +50,7 @@ const Button = styled.button`
     padding: 0.2rem 1.5rem;
     font-weight: bold;
     background: ${color.buttonColor};
+    text-decoration-line: none;
     color: #fff;
 `
 

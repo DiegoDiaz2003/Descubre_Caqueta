@@ -1,18 +1,17 @@
 import Carousel from "react-bootstrap/Carousel";
-import Image1 from "../../assets/images/landscapeBg1.png";
 import styled from "@emotion/styled/macro";
 
-export function CarouselComponent() {
+export function CarouselComponent({img1,img2,img3}) {
     return (
         <Container>
             <Carousel.Item>
-                <Image src={Image1} alt="" />
+                <Image src={img1} alt="" />
             </Carousel.Item>
             <Carousel.Item>
-                <Image src={Image1} alt="" />
+                <Image src={img2} alt="" />
             </Carousel.Item>
             <Carousel.Item>
-                <Image src={Image1} alt="" />
+                <Image src={img3} alt="" />
             </Carousel.Item>
         </Container>
     );

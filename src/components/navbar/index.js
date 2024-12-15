@@ -2,7 +2,7 @@ import { Navbar, Nav } from "react-bootstrap";
 import styled from "@emotion/styled";
 import { useState } from "react";
 import Logo from "../../assets/images/logo.png";
-import * as color from "../../theme"
+import * as color from "../../theme";
 
 export default function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +25,7 @@ export default function NavBar() {
                 >
                     <NavigationLinks>
                         <NavLink href="/">Inicio</NavLink>
-                        <NavLink href="/acerca_de">Acerca de</NavLink>
+                        <NavLink href="/about">Acerca de</NavLink>
                     </NavigationLinks>
                 </NavbarCollapseStyles>
             </Navbar>

@@ -2,7 +2,6 @@ import styled from "@emotion/styled/macro";
 import AboutMeContent from "../../components/aboutMeContent";
 import GalleryAboutme from "../../components/galleryAbouMe";
 import AboutMeHeader from "../../components/aboutMeHeader";
-import * as color from "../../theme";
 
 export default function AboutPage() {
     return (
@@ -24,7 +23,7 @@ const Container = styled.header`
     align-items: center;
     gap: 4rem;
     width: 100%;
-    max-width: 2000px;
+    max-width: 1000px;
 
     div h1 {
         text-align: center;

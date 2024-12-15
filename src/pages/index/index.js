@@ -5,7 +5,7 @@ import Image1 from "../../assets/images/city.png";
 import Image2 from "../../assets/images/music.png";
 import Image3 from "../../assets/images/art.png";
 import Image4 from "../../assets/images/things.png";
-import * as color from "../../theme"
+import * as color from "../../theme";
 
 import Logo from "../../assets/images/logo.png";
 import ImageBackground from "../../assets/images/indexBg.png";
@@ -25,7 +25,7 @@ export default function IndexPage() {
                             text="Explora los paisajes más impresionantes."
                             image={Image1}
                             background={color.blueColor}
-                            url="/paisajes"
+                            url="/landscapes"
                         />
                         <CategoryCard
                             title="Hospedaje"
