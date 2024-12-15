@@ -18,29 +18,29 @@ export default function LandscapesPage() {
             />
             <CardsContainer>
                 <CategoryCardIndividual
-                    title="Cascada el Mohan"
-                    text="En el municipio de Puerto Rico, encontrarás una de las cascadas más únicas de la región. La riqueza hídrica y paisajística generada por el Río Guayas."
+                    title="Reserva natural el Danubio"
+                    text="Esta reserva, de más de 100 hectáreas de bosque altoandino, cuenta con distintas actividades para hacer en Florencia para que tengas un día espectacular. "
                     image={Image1}
                     background={color.blueColor}
                     url="/paisajes"
                 />
                 <CategoryCardIndividual
-                    title="Cascada el Mohan"
-                    text="En el municipio de Puerto Rico, encontrarás una de las cascadas más únicas de la región. La riqueza hídrica y paisajística generada por el Río Guayas."
+                    title="Ecoparque la calera"
+                    text="El Ecoparque La Calera es uno de los lugares turísticos más increíbles de Florencia, Caquetá, donde puedes disfrutar de la naturaleza y diversas actividades al aire libre."
                     image={Image2}
                     background={color.yellowColor}
                     url="/paisajes"
                 />{" "}
                 <CategoryCardIndividual
                     title="Cascada el Mohan"
-                    text="En el municipio de Puerto Rico, encontrarás una de las cascadas más únicas de la región. La riqueza hídrica y paisajística generada por el Río Guayas."
+                    text="En Puerto Rico, descubrirás una de las cascadas más únicas de la región. La riqueza hídrica y paisajística del lugar resalta la belleza natural que ofrece el majestuoso Río Guayas."
                     image={Image3}
                     background={color.yellowColor}
                     url="/paisajes"
                 />{" "}
                 <CategoryCardIndividual
-                    title="Cascada el Mohan"
-                    text="En el municipio de Puerto Rico, encontrarás una de las cascadas más únicas de la región. La riqueza hídrica y paisajística generada por el Río Guayas."
+                    title="Ferry MarcoPolo"
+                    text="Ferry Marcopolo ofrece una experiencia única e inolvidable en la naturaleza, donde los visitantes disfrutan de la emocionante aventura de navegar por las aguas del río Orteguaza."
                     image={Image4}
                     background={color.blueColor}
                     url="/paisajes"
