@@ -32,17 +32,20 @@ export default function IndexPage() {
                             text="Descubre los paisajes más vibrantes de nuestras fiestas."
                             image={Image2}
                             background={color.yellowColor}
+                            url="/hospedaje"
                         />
                         <CategoryCard
                             title="Museos"
                             text="La mejor arte,  ciencia y tecnología."
                             image={Image3}
                             background={color.yellowColor}
+                            url="/esculturas"
                         />
                         <CategoryCard
                             title="Restaurantes"
                             text="Descubre los rincones más fascinantes de nuestros centros comerciales."
                             image={Image4}
+                            url="/restaurantes"
                             background={color.blueColor}
                         />
                     </CardsContainer>
