@@ -29,21 +29,21 @@ export default function IndexPage() {
                         />
                         <CategoryCard
                             title="Hospedaje"
-                            text="Descubre los paisajes más vibrantes de nuestras fiestas."
+                            text="Descubre los Hospedajes mas cool."
                             image={Image2}
                             background={color.yellowColor}
                             url="/hosting"
                         />
                         <CategoryCard
                             title="Museos"
-                            text="La mejor arte,  ciencia y tecnología."
+                            text="Descubra la historia que ofrece el Caqueta."
                             image={Image3}
                             background={color.yellowColor}
                             url="/museums"
                         />
                         <CategoryCard
                             title="Restaurantes"
-                            text="Descubre los rincones más fascinantes de nuestros centros comerciales."
+                            text="Descubre los restaurantes mas llamativos en el Caqueta."
                             image={Image4}
                             background={color.blueColor}
                             url="/restaurants"
