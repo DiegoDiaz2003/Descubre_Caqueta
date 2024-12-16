@@ -1,13 +1,13 @@
 import styled from "@emotion/styled";
-import * as color from "../../theme"
+import * as color from "../../theme";
 
 export default function Footer() {
     return (
         <FooterContainer>
             <Icons>
-                <i class="bi bi-facebook"/>
-                <i class="bi bi-instagram"/>
-                <i class="bi bi-telephone-fill"/>
+                <i className="bi bi-facebook" />
+                <i className="bi bi-instagram" />
+                <i className="bi bi-telephone-fill" />
             </Icons>
             <Title>© 2024 DESCUBRE CAQUETA. All Rights Reserved.</Title>
         </FooterContainer>
@@ -28,7 +28,7 @@ const Icons = styled.div`
     display: flex;
     gap: 1rem;
 
-    i{
+    i {
         font-size: 2.3rem;
     }
 `;

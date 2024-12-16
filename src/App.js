@@ -10,7 +10,9 @@ import MohanInfo from "./pages/categories/landscapes/mohan/info";
 import MohanMoreInfo from "./pages/categories/landscapes/mohan/moreInfo";
 import HostingPage from "./pages/hosting";
 import IndexPage from "./pages/index";
-import LandscapesPage from "./pages/landscapes";
+import {LandscapesPage, LandscapesPageHospedaje,
+    LandscapesPageEsculturas, LandscapesPageRestaurantes
+} from "./pages/landscapes";
 import Layout from "./pages/layout/layout";
 import { Route, Routes } from "react-router-dom";
 import MuseumsPage from "./pages/museums";
