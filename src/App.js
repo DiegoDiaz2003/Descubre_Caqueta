@@ -8,15 +8,13 @@ import MarcoPoloInfo from "./pages/categories/landscapes/marcoPolo/info";
 import MarcoPoloMoreInfo from "./pages/categories/landscapes/marcoPolo/moreInfo";
 import MohanInfo from "./pages/categories/landscapes/mohan/info";
 import MohanMoreInfo from "./pages/categories/landscapes/mohan/moreInfo";
-import HostingPage from "./pages/hosting";
 import IndexPage from "./pages/index";
-import {LandscapesPage, LandscapesPageHospedaje,
-    LandscapesPageEsculturas, LandscapesPageRestaurantes
-} from "./pages/landscapes";
+import {LandscapesPage} from "./pages/landscapes";
 import Layout from "./pages/layout/layout";
 import { Route, Routes } from "react-router-dom";
 import MuseumsPage from "./pages/museums";
 import RestaurantPage from "./pages/restaurant";
+import HostingPage from "./pages/hosting";
 
 function App() {
     return (
