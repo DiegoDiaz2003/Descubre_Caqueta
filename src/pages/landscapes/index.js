@@ -19,13 +19,10 @@ export  function LandscapesPage() {
             />
             <CardsContainer>
                 <CategoryCardIndividual
-                    title="Reserva natural el Danubio"
-                    text="Esta reserva, de más de 100 hectáreas de bosque altoandino, cuenta con distintas actividades para hacer en Florencia para que tengas un día espectacular. "
                     image={Image1}
                     background={color.blueColor}
                     url="/info/landscapes"
                     body={new Body("/info/landscapes","Prueba1","XD","opa")}
-                    
                 />
                 <CategoryCardIndividual
                     title="Ecoparque la calera"

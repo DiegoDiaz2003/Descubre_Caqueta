@@ -9,7 +9,7 @@ import {LandscapesPage, LandscapesPageHospedaje,
 } from "./pages/landscapes";
 import Layout from "./pages/layout/layout";
 import { Route, Routes } from "react-router-dom";
-export const bodygeneral = new Nodo(new Body('ASada','sadad','asdds','sdsad'));
+export const bodygeneral = new Nodo(new Body(''));
 function App() {
     return (
         <>
