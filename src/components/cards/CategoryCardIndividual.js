@@ -1,12 +1,20 @@
 import styled from "@emotion/styled/macro";
 import { Link } from "react-router-dom";
 import * as color from "../../theme"
+import { bodygeneral } from "../../App";
 
-export default function CategoryCardIndividual({ title, text, image,background,url }) {
+export default function CategoryCardIndividual({ text, image,background,url, body }) {
+    
+    if(body)
+    bodygeneral.setBody(body);
+    
+    const values = bodygeneral.getBody()
+
+    console.log(values.titulo)
     return (
         <Card backgroundColor={background}>
             <Texts>
-                <h2>{title}</h2>
+                <h2>{values.titulo}</h2>
                 <p>{text}</p>
                 <Button to={url}>¡Pille!</Button>
             </Texts>
