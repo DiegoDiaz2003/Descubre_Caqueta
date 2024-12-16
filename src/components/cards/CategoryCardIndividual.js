@@ -1,8 +1,11 @@
 import styled from "@emotion/styled/macro";
 import { Link } from "react-router-dom";
 import * as color from "../../theme"
+import { bodygeneral } from "../../App";
 
-export default function CategoryCardIndividual({ title, text, image,background,url }) {
+export default function CategoryCardIndividual({ title, text, image,background,url, body }) {
+    if(body != null){bodygeneral = body;}
+    
     return (
         <Card backgroundColor={background}>
             <Texts>

@@ -7,6 +7,7 @@ import Image4 from "../../assets/images/landscape4.png";
 import TextsCategoryIndividual from "../../components/textsCategoryIndividual";
 import { CarouselComponent } from "../../components/carousel";
 import * as color from "../../theme";
+import Body from "../../components/Model/Body";
 
 export  function LandscapesPage() {
     return (
@@ -23,6 +24,8 @@ export  function LandscapesPage() {
                     image={Image1}
                     background={color.blueColor}
                     url="/info/landscapes"
+                    body={new Body("/info/landscapes","Prueba1","XD","opa")}
+                    
                 />
                 <CategoryCardIndividual
                     title="Ecoparque la calera"
@@ -30,6 +33,7 @@ export  function LandscapesPage() {
                     image={Image2}
                     background={color.yellowColor}
                     url="/landscapes"
+                    
                 />{" "}
                 <CategoryCardIndividual
                     title="Cascada el Mohan"

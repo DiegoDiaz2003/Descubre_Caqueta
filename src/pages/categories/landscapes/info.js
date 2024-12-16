@@ -5,7 +5,9 @@ import img3 from "../../../assets/images/gallery1.png";
 import styled from "@emotion/styled/macro";
 import { CarouselComponent } from "../../../components/carousel";
 
-export default function LandscapesInfo() {
+
+export default function LandscapesInfo({body}) {
+
     return (
         <Container>
             <CarouselComponent img1={img1} img2={img1} img3={img1} />
@@ -13,7 +15,7 @@ export default function LandscapesInfo() {
                 <InfoPageComponents
                     lat={23.163144}
                     lng={-102.330268}
-                    title="Reserva natural el Danubio"
+                    title={body.getTitulo()}
                     img1={img1}
                     img2={img2}
                     img3={img3}
