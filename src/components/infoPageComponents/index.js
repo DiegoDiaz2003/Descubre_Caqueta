@@ -12,6 +12,7 @@ export default function InfoPageComponents({
     img3,
     text,
     url,
+    button = true,
 }) {
     const containerStyle = {
         width: "100%",
@@ -34,8 +35,7 @@ export default function InfoPageComponents({
             </ImagesContainer>
             <TextsContainer>
                 <p>{text}</p>
-
-                <Button to={url}>Conocer mas</Button>
+                {button && <Button to={url}>Conocer mas</Button>}
             </TextsContainer>
 
             <MapContainer>

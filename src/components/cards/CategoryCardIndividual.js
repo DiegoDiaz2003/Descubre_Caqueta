@@ -1,8 +1,14 @@
 import styled from "@emotion/styled/macro";
 import { Link } from "react-router-dom";
-import * as color from "../../theme"
+import * as color from "../../theme";
 
-export default function CategoryCardIndividual({ title, text, image,background,url }) {
+export default function CategoryCardIndividual({
+    title,
+    text,
+    image,
+    background,
+    url,
+}) {
     return (
         <Card backgroundColor={background}>
             <Texts>
@@ -22,7 +28,7 @@ const Card = styled.div`
     background: ${({ backgroundColor }) => backgroundColor};
     border-radius: 10px;
     padding: 1rem;
-    max-width: 500px;
+    max-width: 700px;
     text-align: left;
 `;
 
@@ -35,24 +41,37 @@ const Texts = styled.div`
         font-size: 2rem;
         color: #000;
         font-weight: 600;
+    
+    
+        display: -webkit-box; 
+        -webkit-box-orient: vertical; 
+        overflow: hidden; 
+        -webkit-line-clamp: 1; 
+        text-overflow: ellipsis;
     }
 
     p {
         font-size: 1.3rem;
+
+        display: -webkit-box; 
+        -webkit-box-orient: vertical; 
+        overflow: hidden; 
+        -webkit-line-clamp: 4; 
+        text-overflow: ellipsis;
     }
 `;
 
 const Button = styled(Link)`
     align-self: center;
     border-radius: 1rem;
-    border:none;
+    border: none;
     font-size: 1.2rem;
     padding: 0.2rem 1.5rem;
     font-weight: bold;
     background: ${color.buttonColor};
     text-decoration-line: none;
     color: #fff;
-`
+`;
 
 const ImageContainer = styled.div`
     display: flex;

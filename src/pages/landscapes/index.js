@@ -1,5 +1,6 @@
 import styled from "@emotion/styled/macro";
 import CategoryCardIndividual from "../../components/cards/CategoryCardIndividual";
+import Bg from "../../assets/images/landscapeBg1.png";
 import Image1 from "../../assets/images/landscape1.png";
 import Image2 from "../../assets/images/landscape2.png";
 import Image3 from "../../assets/images/landscape3.png";
@@ -11,7 +12,7 @@ import * as color from "../../theme";
 export default function LandscapesPage() {
     return (
         <Container>
-            <CarouselComponent img1={Image1} img2={Image2} img3={Image3}/>
+            <CarouselComponent img1={Bg} img2={Bg} img3={Bg}/>
             <TextsCategoryIndividual
                 title="Paisajes"
                 text="Caquetá es un verdadero paraíso natural, donde sus exuberantes selvas y majestuosas montañas se entrelazan. Sus ríos cristalinos y cascadas ocultas crean un paisaje cautivador, perfecto para los amantes de la aventura. Los atardeceres sobre las llanuras pintan el cielo de colores vibrantes, ofreciendo un espectáculo mágico. En Caquetá, la naturaleza se despliega en todo su esplendor, invitando a explorar y disfrutar de su rica biodiversidad. ¡Un destino que enamora a cada paso!"
@@ -22,28 +23,28 @@ export default function LandscapesPage() {
                     text="Esta reserva, de más de 100 hectáreas de bosque altoandino, cuenta con distintas actividades para hacer en Florencia para que tengas un día espectacular. "
                     image={Image1}
                     background={color.blueColor}
-                    url="/info/landscapes"
+                    url="/info/danubio"
                 />
                 <CategoryCardIndividual
                     title="Ecoparque la calera"
                     text="El Ecoparque La Calera es uno de los lugares turísticos más increíbles de Florencia, Caquetá, donde puedes disfrutar de la naturaleza y diversas actividades al aire libre."
                     image={Image2}
                     background={color.yellowColor}
-                    url="/landscapes"
+                    url="/info/ecoparque"
                 />{" "}
                 <CategoryCardIndividual
                     title="Cascada el Mohan"
                     text="En Puerto Rico, descubrirás una de las cascadas más únicas de la región. La riqueza hídrica y paisajística del lugar resalta la belleza natural que ofrece el majestuoso Río Guayas."
                     image={Image3}
                     background={color.yellowColor}
-                    url="/landscapes"
+                    url="/info/mohan"
                 />{" "}
                 <CategoryCardIndividual
                     title="Ferry MarcoPolo"
                     text="Ferry Marcopolo ofrece una experiencia única e inolvidable en la naturaleza, donde los visitantes disfrutan de la emocionante aventura de navegar por las aguas del río Orteguaza."
                     image={Image4}
                     background={color.blueColor}
-                    url="/landscapes"
+                    url="/info/marco_polo"
                 />
             </CardsContainer>
         </Container>
