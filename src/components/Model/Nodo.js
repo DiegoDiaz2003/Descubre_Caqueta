@@ -1,4 +1,4 @@
-class Nodo{
+export default class Nodo{
  constructor(body){
     this.body = body; 
  }

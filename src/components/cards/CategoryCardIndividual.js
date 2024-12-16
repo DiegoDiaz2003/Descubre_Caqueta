@@ -4,8 +4,7 @@ import * as color from "../../theme"
 import { bodygeneral } from "../../App";
 
 export default function CategoryCardIndividual({ title, text, image,background,url, body }) {
-    if(body != null){bodygeneral = body;}
-    
+    bodygeneral.setBody(body);
     return (
         <Card backgroundColor={background}>
             <Texts>

@@ -9,7 +9,7 @@ import {LandscapesPage, LandscapesPageHospedaje,
 } from "./pages/landscapes";
 import Layout from "./pages/layout/layout";
 import { Route, Routes } from "react-router-dom";
-export const bodygeneral = new Nodo(new Body('','','',''));
+export const bodygeneral = new Nodo(new Body('ASada','sadad','asdds','sdsad'));
 function App() {
     return (
         <>
@@ -23,7 +23,7 @@ function App() {
                         <Route path="/restaurantes" element={<LandscapesPageRestaurantes />} />
                         <Route
                             path="/info/landscapes"
-                            element={<LandscapesInfo body={bodygeneral} />}
+                            element={<LandscapesInfo body={bodygeneral.getBody()} />}
                         />
                         <Route
                             path="/more_info/landscapes"
